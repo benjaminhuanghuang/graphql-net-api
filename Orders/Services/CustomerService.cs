@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//
 using Orders.Models;
 
 namespace Orders.Services
@@ -36,6 +37,7 @@ namespace Orders.Services
         }
     }
 
+    // For easily testing
     public interface ICustomerService
     {
         Customer GetCustomerById(int id);

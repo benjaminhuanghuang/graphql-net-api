@@ -1,9 +1,10 @@
 ﻿using GraphQL.Types;
-using Orders.Models;
 using Orders.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
+//
+using Orders.Models;
 
 namespace Orders.Schema
 {

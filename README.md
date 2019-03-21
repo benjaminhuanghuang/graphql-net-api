@@ -34,3 +34,14 @@
 ```
   dotnet run
 ```
+
+## Configuring the GraphQL Schema
+- Create GraphQL types
+- Create GraphQL Query object
+- Create a Schema object 
+
+
+## Common GraphQL.NET class
+- Schema: Used to define query, mutation and subscriptions
+- ObjectGraph<T>: used to expose GraphQL types in schema
+- ListGraph<T>: define a GraphQL collection
