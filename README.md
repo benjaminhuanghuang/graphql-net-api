@@ -30,11 +30,7 @@
 
   dotnet restore                           # download all libraries
 ```
-- Add refernece
-```
-dotnet add reference
-```
-- Run
+- Run server
 ```
   dotnet run
 ```
