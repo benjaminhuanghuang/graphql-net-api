@@ -4,7 +4,7 @@
 - GraphQL.Net by Joe McBride (http://github.com/joemcbride)
   Creating GraphQL endpoint supporting queryies, mutation and subscriptions
 
-- https://github.com/graphql-dotnet/example-orders
+- [GraphQL.Net example](https://github.com/graphql-dotnet/example-orders)
 
 ## Setup
 - Install .NET core
@@ -27,6 +27,7 @@
   dotnet add Server package Microsoft.AspNetCore.StaticFiles
   dotnet add Server package GraphQL.Server.Transports.AspNetCore      # for websocket
   dotnet add Server package GraphQL.Server.Transports.WebSockets
+  ...
 
   dotnet restore                           # download all libraries
 ```
@@ -45,3 +46,6 @@
 - Schema: Used to define query, mutation and subscriptions
 - ObjectGraph<T>: used to expose GraphQL types in schema
 - ListGraph<T>: define a GraphQL collection
+
+
+##
